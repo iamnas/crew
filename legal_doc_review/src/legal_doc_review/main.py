@@ -18,7 +18,7 @@ def run():
     # inputs = {
     #     'legal_document': legal_document
     # }
-    file_path = os.path.join(os.path.dirname(__file__), 'samples', 'legal_document.txt')
+    file_path = os.path.join(os.path.dirname(__file__), 'samples', 'confidentiality_agreement.txt')
 
     if not os.path.exists(file_path):
         raise FileNotFoundError(f"File not found: {file_path}")
@@ -29,7 +29,7 @@ def run():
     if not legal_document.strip():
         raise ValueError("The legal document is empty. Please provide a valid document.")
     # Prepare inputs for the crew
-    print("Loaded legal document successfully.", legal_document[:100], "...")  # Print the first 100 characters for verification
+    # print("Loaded legal document successfully.", legal_document[:100], "...")  # Print the first 100 characters for verification
 
     inputs = {
         'legal_document': legal_document
