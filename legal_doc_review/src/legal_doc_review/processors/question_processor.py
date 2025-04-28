@@ -5,9 +5,13 @@ class QuestionProcessor:
     def ask_user_for_risks(risk_text: str) -> dict:
         """Ask the user questions based on risks detected."""
         questions = QuestionGeneratorTool.generate_questions(risk_text)
+        
+        # ✅ LIMIT TO 5 QUESTIONS
+        limited_questions = questions[:5]
+
         user_responses = {}
 
-        for question in questions:
+        for question in limited_questions:
             while True:
                 answer = input(question).strip().lower()
                 if answer in ['y', 'n']:

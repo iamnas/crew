@@ -1,23 +1,20 @@
-**Termination Clauses**
+1. **Termination Clause**
+The parties agree that Executive’s employment with the Company shall terminate upon the occurrence of certain events, including:
+- Termination without Cause or in Connection with a Change in Control
+- Death or Disability of Executive
+- Resignation by Executive with at least 30 days’ prior written notice to the Company
+- Termination by the Company for "Good and Proper Reason"
 
-1.  "3.During, and after the termination of, his employment, Executive agrees not to disclose any of the Company’s Confidential Information to any person or entity or use such Confidential Information to his own benefit or the benefit of any person or entity other than the Company."
-2.  "All documents (originals and copies, including electronic versions) containing Confidential Information shall be returned to the Company upon termination."
+Upon termination, Executive shall return all Confidential Information to the Company. The parties agree that this Agreement shall be binding upon and inure to the benefit of their successors and assigns.
 
-**Payment Terms:**
+2. **Payment Terms Clause**
+The Company shall pay Executive a reasonable annual salary as set forth in the Executive Employment Agreement, plus any bonuses or incentives as provided for in the agreement. In addition, the Company shall pay Executive for certain benefits under the Company’s stock option plan.
 
-*   None mentioned in this document
+3. **Confidentiality Clause**
+Executive agrees not to disclose any Confidential Information to any person or entity or use such Confidential Information to his own benefit or the benefit of any person or entity other than the Company. This provision shall not prohibit disclosure of Confidential Information during Executive's employment to an officer, employee, fiduciary, or affiliate of the Company, or a Company vendor, provided a third party outside the Company (such as a vendor) has signed a similar confidentiality agreement.
 
-**Confidentiality Clauses:**
+4. **Indemnity Clause**
+The Company shall indemnify and hold harmless Executive against any and all claims, losses, liabilities, costs, damages, and expenses (including reasonable attorneys' fees and disbursements) that arise out of or are reasonably related to the performance of his duties as an executive officer of the Company.
 
-1.  ““Confidential Information” means information concerning the business, operations, strategies, financial status, products, services, customer names, customer lists and customer information of the Company, which is confidential or proprietary to the Company."
-2.  "Executive agrees not to use, duplicate, or reproduce in any way any Confidential Information for Executive’s own benefit or financial gain, or for any third party’s benefit or financial gain, except in connection with rendering services to the Company."
-
-**Indemnity Clauses:**
-
-*   None mentioned in this document
-
-**Liability Clauses:**
-
-1.  "The Parties acknowledge that, in the absence of breach by either Party hereunder, neither Party shall be liable for any consequential damages arising out of or related to the exercise of its rights under this Agreement."
-2.  "No remedy provided under this Agreement shall be exclusive of other remedies available at law or in equity. Each remedy provided under this Agreement is an independent basis for a separate cause of action."
-3.  "This Agreement shall be governed by and construed in accordance with the laws of the State of (insert state). Any disputes arising out of or related to this Agreement shall be resolved through binding arbitration in accordance with the rules of the American Arbitration Association, as amended from time to time."
+5. **Liability Clause**
+The parties agree that neither party shall be liable for any loss or damage arising from the breach of this Agreement by the other party, except to the extent that such breach is willful and reckless.
