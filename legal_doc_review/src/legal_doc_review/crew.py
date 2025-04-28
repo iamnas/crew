@@ -34,23 +34,44 @@ class LegalDocReview():
             verbose=True
         )
 
+    # @task
+    # def extract_clauses_task(self) -> Task:
+    #     return Task(
+    #         config=self.tasks_config['extract_clauses_task'],
+    #     )
+
+    # @task
+    # def detect_risks_task(self) -> Task:
+    #     return Task(
+    #         config=self.tasks_config['detect_risks_task'],
+    #     )
+
+    # @task
+    # def summarize_document_task(self) -> Task:
+    #     return Task(
+    #         config=self.tasks_config['summarize_document_task'],
+    #          output_file='outputs/report.md'
+    #     )
+
     @task
     def extract_clauses_task(self) -> Task:
         return Task(
             config=self.tasks_config['extract_clauses_task'],
+            output_file='outputs/clauses_output.md'  # ✅ Save clause extraction
         )
 
     @task
     def detect_risks_task(self) -> Task:
         return Task(
             config=self.tasks_config['detect_risks_task'],
+            output_file='outputs/risk_report.md'  # ✅ Save risk detection
         )
 
     @task
     def summarize_document_task(self) -> Task:
         return Task(
             config=self.tasks_config['summarize_document_task'],
-             output_file='outputs/report.md'
+            output_file='outputs/final_summary.md'  # ✅ Save final summary
         )
 
     @crew
