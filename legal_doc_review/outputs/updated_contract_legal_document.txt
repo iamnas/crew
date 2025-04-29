@@ -1,21 +1,15 @@
-To add an indemnity clause to the existing contract, we will insert a new clause after Option 6 and before Limitation of Liability.
+To update the termination clause to reflect a 60-day notice period, we need to modify line 1 of the contract.
 
-**Updated Contract**
+The updated contract is as follows:
 
 CONFIDENTIALITY AGREEMENT
 
 This Confidentiality Agreement ("Agreement") is entered into between Company A and Company B.
 
 1. Termination: Either party may terminate this Agreement upon 60 days' written notice.
-2. Payment Terms: Payment shall be made within 30 days of invoice receipt (Net 30).
-3. GDPR Compliance: The parties agree to comply with the General Data Protection Regulation (GDPR) in their handling and processing of personal data, including but not limited to:
-* Ensuring the confidentiality, integrity, and security of personal data
-* Providing individuals with the right to access and rectify their personal data
-* Notifying the relevant authorities of any personal data breaches
-* Complying with all applicable GDPR requirements for data protection and processing
-4. Confidentiality: Parties agree to protect confidential information for 5 years after termination.
-5. Indemnity: Each party agrees to indemnify and hold harmless the other from damages, including but not limited to, losses resulting from breach of confidentiality or misappropriation of confidential information.
-6. Option: The parties agree that in the event of default by either party under this Agreement, the non-defaulting party shall have the right to terminate this Agreement upon 30 days' written notice.
-7. Limitation of Liability: Neither party shall be liable for indirect or consequential damages.
+2. Payment Terms: Payment shall be made within 45 days of invoice receipt.
+3. Confidentiality: Parties agree to protect confidential information for 3 years after termination.
+4. Indemnity: Each party agrees to indemnify and hold harmless the other from damages.
+5. Limitation of Liability: Neither party shall be liable for indirect or consequential damages.
 
 Signed: April 10, 2025.
