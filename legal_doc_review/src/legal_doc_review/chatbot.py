@@ -235,29 +235,57 @@ def run_cli_chatbot():
     updater = AIContractUpdater(model="llama3.2")
     question_count = 0
     MAX_QUESTIONS = 5
-
+    
     while question_count < MAX_QUESTIONS:
         user_input = input(f"🧑 Your request ({MAX_QUESTIONS - question_count} left): ").strip()
 
-        # Early exit if user types exit or leaves blank
-        if user_input.lower() in {"exit", "quit", "q"}:
+        if user_input.lower() in {"exit", "quit", "q", ""}:
             print("\n👋 Exiting update loop early.")
             break
 
         try:
             updated_contract_text = updater.rewrite_contract(contract_text, user_input)
-            reply = "✅ Contract updated based on your request."
+
+            if updated_contract_text.strip().startswith("❌"):
+                reply = updated_contract_text  # Show rejection from updater
+                print(f"\n🤖 Bot: {reply}")
+                print("⚠️ That request wasn't relevant to the current contract.")
+                continue  # Don't count this toward question count
+            else:
+                reply = "✅ Contract updated based on your request."
+                contract_text = updated_contract_text
+                question_count += 1
+
         except Exception as e:
             reply = f"❌ Error during update: {str(e)}"
-            updated_contract_text = contract_text
+            print(f"\n🤖 Bot: {reply}")
+            continue
 
         print(f"\n🤖 Bot: {reply}")
 
-        if "❌" not in reply:
-            contract_text = updated_contract_text
-            question_count += 1
-        else:
-            print("⚠️ Try phrasing your request differently.")
+
+    # while question_count < MAX_QUESTIONS:
+    #     user_input = input(f"🧑 Your request ({MAX_QUESTIONS - question_count} left): ").strip()
+
+    #     # Early exit if user types exit or leaves blank
+    #     if user_input.lower() in {"exit", "quit", "q"}:
+    #         print("\n👋 Exiting update loop early.")
+    #         break
+
+    #     try:
+    #         updated_contract_text = updater.rewrite_contract(contract_text, user_input)
+    #         reply = "✅ Contract updated based on your request."
+    #     except Exception as e:
+    #         reply = f"❌ Error during update: {str(e)}"
+    #         updated_contract_text = contract_text
+
+    #     print(f"\n🤖 Bot: {reply}")
+
+    #     if "❌" not in reply:
+    #         contract_text = updated_contract_text
+    #         question_count += 1
+    #     else:
+    #         print("⚠️ Try phrasing your request differently.")
 
     # Step 3: Save updated contract
     os.makedirs('outputs', exist_ok=True)
