@@ -1,0 +1,22 @@
+SOFTWARE AS A SERVICE (SaaS) AGREEMENT
+
+This SaaS Agreement is entered into on March 20, 2024, between CloudFusion Inc. ("Provider") and Apex Logistics Co. ("Customer").
+
+1. SERVICES: Provider will make its logistics platform accessible to Customer via the internet.
+
+2. TERM: This Agreement shall remain in effect for twelve (12) months unless terminated earlier.
+
+3. FEES: Customer shall pay $2,000/month via auto-billing. Late payments accrue interest at 1.5% per month.
+
+4. DATA OWNERSHIP: All data uploaded by Customer remains the property of the Customer.
+
+5. UPTIME GUARANTEE: Provider guarantees 99.9% uptime. Scheduled maintenance may occur with 48 hours’ notice.
+
+6. TERMINATION: Either party may terminate with 30 days’ written notice. Provider may suspend access for non-payment.
+
+7. LIMITATION OF LIABILITY: Provider’s liability is limited to the total fees paid in the last 3 months.
+
+8. GOVERNING LAW: This Agreement is governed by the laws of the State of Texas.
+
+_______________________      _______________________
+CloudFusion Inc.            Apex Logistics Co.

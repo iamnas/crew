@@ -1,55 +1,130 @@
-# LegalDocReview Crew
+# ⚖️ Legal Document Review Assistant
 
-This project uses CrewAI to automatically review, extract, and summarize legal documents.
+This project is a multi-agent, RAG-powered CLI assistant that can:
 
+- ✅ Extract clauses, detect risks, and summarize legal contracts
+- ✅ Allow users to interactively request contract updates (like "extend term to 5 years")
+- ✅ Rewrite the document using LLMs like `llama3.2` or `mistral` (via Ollama)
+- ✅ Work fully offline with local models
 
-## Installation
+---
 
-Ensure you have Python >=3.10 <3.13 installed on your system. This project uses [UV](https://docs.astral.sh/uv/) for dependency management and package handling, offering a seamless setup and execution experience.
+## 🧪 Example Use Cases
 
-First, if you haven't already, install uv:
+- Review NDAs, employment or SaaS agreements
+- Update confidentiality duration or termination notice
+- Chatbot-style interaction to update clauses in natural language
 
-```bash
-pip install uv
-```
+---
 
-Next, navigate to your project directory and install the dependencies:
+## 🛠️ Setup Instructions
 
-(Optional) Lock the dependencies and install them by using the CLI command:
-```bash
-crewai install
-```
-### Customizing
-
-**Add your `OPENAI_API_KEY` into the `.env` file**
-
-- Modify `src/legal_doc_review/config/agents.yaml` to define your agents
-- Modify `src/legal_doc_review/config/tasks.yaml` to define your tasks
-- Modify `src/legal_doc_review/crew.py` to add your own logic, tools and specific args
-- Modify `src/legal_doc_review/main.py` to add custom inputs for your agents and tasks
-
-## Running the Project
-
-To kickstart your crew of AI agents and begin task execution, run this from the root folder of your project:
+### 1. Clone the Repo
 
 ```bash
-$ crewai run
+git clone https://github.com/your-username/legal-doc-review
+cd legal-doc-review
 ```
 
-This command initializes the legal_doc_review Crew, assembling the agents and assigning them tasks as defined in your configuration.
+### 2. Create Conda Environment
 
-This example, unmodified, will run the create a `report.md` file with the output of a research on LLMs in the root folder.
+```bash
+conda create -n master-crewai-course python=3.11
+conda activate master-crewai-course
+```
 
-## Understanding Your Crew
+### 3. Install Requirements
 
-The legal_doc_review Crew is composed of multiple AI agents, each with unique roles, goals, and tools. These agents collaborate on a series of tasks, defined in `config/tasks.yaml`, leveraging their collective skills to achieve complex objectives. The `config/agents.yaml` file outlines the capabilities and configurations of each agent in your crew.
+```bash
+pip install -r requirements.txt
+```
 
-## Support
+Or manually:
 
-For support, questions, or feedback regarding the LegalDocReview Crew or crewAI.
-- Visit our [documentation](https://docs.crewai.com)
-- Reach out to us through our [GitHub repository](https://github.com/joaomdmoura/crewai)
-- [Join our Discord](https://discord.com/invite/X4JWnZnxPb)
-- [Chat with our docs](https://chatg.pt/DWjSBZn)
+```bash
+pip install crewai llama-index langchain langchain-community langchain_ollama langchain_huggingface google-generativeai
+pip install sentence-transformers
+```
 
-Let's create wonders together with the power and simplicity of crewAI.
+---
+
+## 🤖 LLM Setup (Ollama)
+
+Make sure Ollama is installed and running:
+
+```bash
+ollama run llama3:latest
+```
+
+For smaller models:
+```bash
+ollama run mistral
+```
+
+---
+
+## 🧾 Run Main Pipeline (Clause Extraction + Summary)
+
+```bash
+python src/legal_doc_review/main.py
+```
+
+---
+
+## 💬 Run the Chatbot (Interactive Updates)
+
+```bash
+python src/legal_doc_review/chatbot.py
+```
+
+You’ll be prompted for a file in the `samples/` directory like:
+
+```
+legal_document.txt
+nda_sample.txt
+employment_agreement_sample.txt
+```
+
+You'll then be able to type update requests like:
+
+- “Extend the term to 5 years”
+- “Add a severance clause”
+- “Clarify non-compete language”
+
+---
+
+## 📁 Project Structure
+
+```
+src/legal_doc_review/
+├── main.py               # End-to-end pipeline runner
+├── chatbot.py            # CLI-based contract editor assistant
+├── tools/                # Custom tools for LLM, loader, updater
+├── processors/           # Chunk processor, merger, question-asker
+├── samples/              # Input contracts to analyze and edit
+├── outputs/              # Final updated contracts and logs
+```
+
+---
+
+## 🔍 Troubleshooting
+
+- ❗ **Slow responses?** Try smaller model like `mistral`
+- ❗ **Not recognizing valid request?** Phrase more directly, like "Change term clause"
+- ❗ **Ollama not responding?** Make sure it's running and model is preloaded
+
+---
+
+## 🙌 Acknowledgements
+
+- [CrewAI](https://github.com/joaomdmoura/crewai)
+- [LangChain](https://www.langchain.com/)
+- [LlamaIndex](https://www.llamaindex.ai/)
+- [Ollama](https://ollama.com/)
+- [Sentence-Transformers](https://www.sbert.net/)
+
+---
+
+## 📜 License
+
+MIT License — use freely and ethically.

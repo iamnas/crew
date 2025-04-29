@@ -1,0 +1,22 @@
+NON-DISCLOSURE AGREEMENT
+
+This Non-Disclosure Agreement ("Agreement") is made effective as of February 1, 2024, between Orion Tech Inc. ("Disclosing Party") and Stellar Solutions LLC ("Receiving Party").
+
+1. DEFINITION OF CONFIDENTIAL INFORMATION: Confidential Information includes technical data, trade secrets, business plans, software, customer lists, and pricing.
+
+2. OBLIGATIONS: Receiving Party shall (a) keep the Confidential Information strictly confidential, (b) not disclose it to any third party, and (c) not use it for any purpose except evaluating a business opportunity with Disclosing Party.
+
+3. TERM: This Agreement and the confidentiality obligations shall remain in effect for three (3) years from the effective date.
+
+4. EXCEPTIONS: The confidentiality obligations do not apply to information that is (a) publicly available, (b) disclosed by a third party legally, or (c) independently developed.
+
+5. RETURN OF MATERIALS: Upon termination, Receiving Party shall return or destroy all Confidential Information.
+
+6. NO LICENSE: This Agreement does not grant any rights or licenses under any intellectual property.
+
+7. GOVERNING LAW: This Agreement shall be governed by the laws of the State of California.
+
+IN WITNESS WHEREOF, the parties have executed this Agreement as of the date first above written.
+
+_______________________      _______________________
+Orion Tech Inc.             Stellar Solutions LLC
