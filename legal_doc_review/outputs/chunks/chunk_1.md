@@ -1,20 +1,26 @@
 1. **Termination Clause**
-The parties agree that Executive’s employment with the Company shall terminate upon the occurrence of certain events, including:
-- Termination without Cause or in Connection with a Change in Control
-- Death or Disability of Executive
-- Resignation by Executive with at least 30 days’ prior written notice to the Company
-- Termination by the Company for "Good and Proper Reason"
-
-Upon termination, Executive shall return all Confidential Information to the Company. The parties agree that this Agreement shall be binding upon and inure to the benefit of their successors and assigns.
+The parties agree that this Confidentiality Agreement shall terminate upon the earliest of:
+(a) Executive's death;
+(b) Executive's voluntary or involuntary termination of employment with the Company; or
+(c) The expiration of the term of this Confidentiality Agreement, whichever occurs first.
 
 2. **Payment Terms Clause**
-The Company shall pay Executive a reasonable annual salary as set forth in the Executive Employment Agreement, plus any bonuses or incentives as provided for in the agreement. In addition, the Company shall pay Executive for certain benefits under the Company’s stock option plan.
+Nothing in this Confidentiality Agreement is intended to constitute a promise by either party to pay any amounts or to provide any benefits to the other party upon termination of this Confidentiality Agreement. Nothing in this section shall be construed as an acknowledgment that either party owes the other party any debt, liability, or claim.
 
 3. **Confidentiality Clause**
-Executive agrees not to disclose any Confidential Information to any person or entity or use such Confidential Information to his own benefit or the benefit of any person or entity other than the Company. This provision shall not prohibit disclosure of Confidential Information during Executive's employment to an officer, employee, fiduciary, or affiliate of the Company, or a Company vendor, provided a third party outside the Company (such as a vendor) has signed a similar confidentiality agreement.
+1. All Confidential Information is and shall remain the property of the Company.
+2. No license or conveyance of any right is granted or implied by the distribution of any Confidential Information to Executive.
+4. Executive agrees not to use, duplicate, or reproduce in any way any Confidential Information for Executive’s own benefit or financial gain, or for any third party’s benefit or financial gain, except in connection with rendering services to the Company.
+5. All documents (originals and copies, including electronic versions) containing Confidential Information shall be returned to the Company upon termination.
 
 4. **Indemnity Clause**
-The Company shall indemnify and hold harmless Executive against any and all claims, losses, liabilities, costs, damages, and expenses (including reasonable attorneys' fees and disbursements) that arise out of or are reasonably related to the performance of his duties as an executive officer of the Company.
+Executive agrees to indemnify, defend, and hold harmless the Company, its directors, officers, employees, agents, and affiliates from any claim, loss, damage, liability, cost, expense, or other obligation (including attorneys' fees) that may arise in connection with:
+(a) Executive's breach of this Confidentiality Agreement;
+(b) Executive's unauthorized use or disclosure of Confidential Information; or
+(c) Executive’s negligence or willful misconduct.
 
 5. **Liability Clause**
-The parties agree that neither party shall be liable for any loss or damage arising from the breach of this Agreement by the other party, except to the extent that such breach is willful and reckless.
+In no event shall the Company be liable to Executive for any indirect, special, incidental, consequential, punitive, or other damages arising out of or related to this Confidentiality Agreement, including, without limitation, loss of profits, business interruption, loss of opportunities, and loss of goodwill, even if the Company has been advised of the possibility of such damages.
+
+6. **Change in Control Benefit Clause**
+This section is added for the benefit of Executive under Section 280G(b) of the Internal Revenue Code (or any successor provision thereto). Notwithstanding anything to the contrary, the payment made by the Company to Executive upon his termination of employment shall be adjusted to ensure that such payment does not exceed $10 million.
